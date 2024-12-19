@@ -2,7 +2,7 @@
 name = "racernix"
 version = "0.1.0"
 description = ""
-authors = ["dawdaborjekujabi@gmail.com <dawdaborjekujabi@gmail.com>"]
+authors = ["Börje's Tech <info@borjestech.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -11,6 +11,9 @@ scikit-learn = "^1.6.0"
 pandas = "^2.2.3"
 numpy = "^2.2.0"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
 
 [build-system]
 requires = ["poetry-core"]
